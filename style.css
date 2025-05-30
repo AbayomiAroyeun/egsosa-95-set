@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,6 +12,7 @@ body {
   padding: 10px;
 }
 
+/* Top Section */
 #top-section {
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +28,7 @@ body {
   align-items: center;
 }
 
-/* Logo animation */
+/* Logo Animation */
 @keyframes flip {
   0% { transform: rotateY(0deg); }
   100% { transform: rotateY(360deg); }
@@ -42,7 +44,7 @@ body {
   animation-play-state: paused;
 }
 
-/* Heading styles */
+/* Heading Section */
 #heading {
   text-align: center;
   flex: 1;
@@ -55,17 +57,13 @@ body {
   white-space: normal;
 }
 
-/* Wave effect */
+/* Wave Effect Animation */
 @keyframes wave {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-8px); }
 }
 
-@keyframes glow {
-  from { text-shadow: 0 0 5px lightgreen; }
-  to   { text-shadow: 0 0 20px lightgreen; }
-}
-
+/* Navigation */
 nav ul {
   list-style: none;
   padding: 0;
@@ -86,6 +84,7 @@ nav a {
   font-weight: bold;
 }
 
+/* Middle Section Layout */
 #middle-section {
   display: flex;
   flex-wrap: wrap;
@@ -93,13 +92,13 @@ nav a {
   gap: 20px;
 }
 
-/* Content and welcome column */
+/* Content and Welcome Columns */
 #middle, #Welcome {
   flex: 1 1 400px;
   box-sizing: border-box;
 }
 
-/* Slideshow background */
+/* Welcome Slideshow */
 #Welcome {
   padding: 10px;
   border-radius: 5px;
@@ -110,11 +109,17 @@ nav a {
   align-items: center;
   min-height: 200px;
   text-align: center;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
   background-size: cover;
   background-position: center;
   animation: slideshow 20s infinite;
 }
 
+/* Slideshow Animation */
 @keyframes slideshow {
   0%   { background-image: url('image/image1.jpg'); }
   25%  { background-image: url('image/image2.jpg'); }
@@ -123,7 +128,30 @@ nav a {
   100% { background-image: url('image/image1.jpg'); }
 }
 
-/* Responsive tweaks */
+/* Birthday Celebrant Override (optional) */
+.birthday-celebrant {
+  background-image: none !important;
+  background-color: black;
+  color: yellow;
+  flex-direction: column;
+}
+
+.birthday-celebrant img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  animation: bounce 2s infinite;
+  border-radius: 50%;
+  box-shadow: 0 0 10px white;
+}
+
+/* Bounce Animation for Celebrant Image */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   #top-section {
     flex-direction: column;
@@ -147,5 +175,20 @@ nav a {
     order: -1;
   }
 }
+#show-members-btn {
+  background-color: #004080;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#show-members-btn:hover {
+  background-color: #0066cc;
+}
+
 
 
