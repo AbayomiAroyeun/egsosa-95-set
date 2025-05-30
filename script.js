@@ -15,7 +15,7 @@ const otherImages = [
 ];
 
 const logoImg = document.getElementById("logo-img");
-const isTesting = true;
+const isTesting = false;
 
 function getCurrentTime() {
   if (isTesting) {
