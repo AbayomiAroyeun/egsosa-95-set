@@ -3,12 +3,19 @@ const otherImages = [
   "image/akeem.jpg",
   "image/baale.png",
   "image/kunle.jpg",
-  "image/morufat.jpg",
+  "image/keji.jpg",
+  "image/qudrat.jpg",
+  "image/rotimi.jpg",
+  "image/tayo.jpg",
+  "image/tunde.jpg",
+  "image/ademola.jpg",
+  "image/fatimah.jpg",
+  "image/femi.jpg",
   "image/yomi.jpg"
 ];
 
 const logoImg = document.getElementById("logo-img");
-const isTesting = false;
+const isTesting = true;
 
 function getCurrentTime() {
   if (isTesting) {
@@ -53,7 +60,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (hour >= 16 && hour <= 23) {
       updateTopImage();
     }
-  }, 10000);
+  }, 5000);
 });
 let lastIndex = -1;
 
