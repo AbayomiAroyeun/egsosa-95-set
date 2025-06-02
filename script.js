@@ -4,7 +4,8 @@ const otherImages = [
   "image/keji.jpg", "image/qudrat.jpg", "image/rotimi.jpg",
   "image/tayo.jpg", "image/tunde.jpg", "image/ademola.jpg",
   "image/fatimah.jpg", "image/femi.jpg", "image/dada.jpg",
-  "image/yomi.jpg"
+  "image/yomi.jpg","image/morufat.jpg","image/quazeem.jpg",
+  "image/toyin.jpg"
 ];
 
 const birthdayMembers = [
@@ -17,6 +18,8 @@ const birthdayMembers = [
   { name: "Babatunde Sowunmi", day: 28, month: 1, image: "image/tunde.gif" },
   { name: "Abayomi Aroyeun", day: 21, month: 5, image: "image/Abayomi.jpg" },
   { name: "Dada Ishaq Olakunle", day: 9, month: 1, image: "image/dada.jpg" },
+  { name: "Quazeem Mabayomije Adeogun", day: 4, month: 9, image: "image/quazeem.jpg" },
+  { name: "Oluwatoyin Oluwakemi Awobajo", day: 26, month: 7, image: "image/toyin.jpg" },
   { name: "Qudrat Offor (Nee Eyiowuawi)", day: 17, month: 7, image: "image/qudrat.gif" }
 ];
 
@@ -33,7 +36,10 @@ const memberNames = [
   "Babatunde Sowunmi",
   "Abayomi Aroyeun",
   "Dada Ishaq Olakunle",
-  "Qudrat Offor (Nee Eyiowuawi)"
+  "Qudrat Offor (Nee Eyiowuawi)",
+  "Quazeem Mabayomije Adeogun",
+  "Gbenga Malomo",
+  "Oluwatoyin Oluwakemi Awobaji(Nee Adekanmbi)"
 ];
 
 const isTesting = false;
