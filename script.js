@@ -37,7 +37,6 @@ const memberNames = [
   "Abayomi Aroyeun",
   "Dada Ishaq Olakunle",
   "Qudrat Offor (Nee Eyiowuawi)",
-  "Quazeem Mabayomije Adeogun",
   "Gbenga Malomo",
   "Oluwatoyin Oluwakemi Awobaji(Nee Adekanmbi)"
 ];
