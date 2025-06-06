@@ -9,18 +9,22 @@ const otherImages = [
 ];
 
 const birthdayMembers = [
-  { name: "Oludiran Tayo Gbenga", day: 26, month: 4, image: "image/tayo.gif" },
-  { name: "Fatimat Sobiye (nee Makanjuola)", day: 22, month: 9, image: "image/fatimah.gif" },
+  { name: "Oludiran Tayo Gbenga", day: 26, month: 5, image: "image/tayo.gif" },
+  { name: "Fatimat Sobiye (nee Makanjuola)", day: 22, month: 10, image: "image/fatimah.gif" },
   { name: "Morenikeji Adebunmi (Nee Olaoba)", day: 31, month: 6, image: "image/keji.gif" }, // Fixed
-  { name: "Soremekun Oluwafemi", day: 9, month: 10, image: "image/femi.gif" },
-  { name: "Olurotimi Makinde", day: 16, month: 3, image: "image/rotimi.gif" },
-  { name: "Ademola Adebesin", day: 29, month: 5, image: "image/ademola.gif" },
-  { name: "Babatunde Sowunmi", day: 28, month: 1, image: "image/tunde.gif" },
-  { name: "Abayomi Aroyeun", day: 21, month: 5, image: "image/Abayomi.jpg" },
-  { name: "Dada Ishaq Olakunle", day: 9, month: 1, image: "image/dada.jpg" },
+  { name: "Soremekun Oluwafemi", day: 9, month: 11, image: "image/femi.gif" },
+  { name: "Olurotimi Makinde", day: 16, month: 4, image: "image/rotimi.gif" },
+  { name: "Ademola Adebesin", day: 29, month: 6, image: "image/ademola.gif" },
+  { name: "Babatunde Sowunmi", day: 28, month: 2, image: "image/tunde.gif" },
+  { name: "Abayomi Aroyeun", day: 21, month: 6, image: "image/Abayomi.jpg" },
+  { name: "Dada Ishaq Olakunle", day: 9, month: 2, image: "image/dada.jpg" },
+  { name: "Adeola Adeleke", day: 4, month: 10, image: "image/logo.jpg" },
+  { name: "Soyebi Olusola", day: 19, month: 11, image: "image/logo.jpg" },
+  { name: "Okanlawon Saheed", day: 14, month: 5, image: "image/dada.jpg" },
+  { name: "Dele Ali", day: 15, month: 0, image: "image/dada.jpg" },
   { name: "Quazeem Mabayomije Adeogun", day: 4, month: 9, image: "image/quazeem.jpg" },
   { name: "Oluwatoyin Oluwakemi Awobajo", day: 26, month: 7, image: "image/toyin.jpg" },
-  { name: "Qudrat Offor (Nee Eyiowuawi)", day: 17, month: 7, image: "image/qudrat.gif" }
+  { name: "Qudrat Offor (Nee Eyiowuawi)", day: 17, month: 8, image: "image/qudrat.gif" }
 ];
 
 const memberNames = [
@@ -36,9 +40,12 @@ const memberNames = [
   "Babatunde Sowunmi",
   "Abayomi Aroyeun",
   "Dada Ishaq Olakunle",
+  "Dele Ali",
   "Qudrat Offor (Nee Eyiowuawi)",
   "Gbenga Malomo",
-  "Oluwatoyin Oluwakemi Awobaji(Nee Adekanmbi)"
+  "Oluwatoyin Oluwakemi Awobaji(Nee Adekanmbi)",
+  "Soyebi Olusola(Nee Adeniji)",
+  "Akeem Ojoye"
 ];
 
 const isTesting = false;
